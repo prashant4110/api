@@ -1,0 +1,13 @@
+server:
+    port: 5000
+    servlet:
+        context-path: /api
+spring:
+    datasource:
+        driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+        password: <7277prE>
+        url: jdbc:sqlserver://localhost:1433;databaseName=dev;encrypt=true;trustServerCertificate=true
+        username: sa
+    jpa:
+        hibernate:
+            ddl-auto: none
